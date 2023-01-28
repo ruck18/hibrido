@@ -88,7 +88,7 @@ echo -e "\033[1;32mINSTALANDO"
 echo ""
 fun_bar "apt-get install fail2ban -y"
 cd $HOME
-wget -O fail2ban https://www.dropbox.com/s/qtz4aihjnwpth7y/fail2ban-0.9.4.tar.gz?dl=0 -o /dev/null
+wget -O fail2ban https://www.dropbox.com/s/s7davl1d0apv253/fail2ban-0.9.4.tar.gz?dl=0 -o /dev/null
 tar -xf $HOME/fail2ban
 cd $HOME/fail2ban-0.9.4
 ./setup.py install > /dev/null 2>&1

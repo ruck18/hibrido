@@ -62,7 +62,7 @@ fun_atts () {
 
   [[ -e /tmp/att ]] && rm /tmp/att
 
-	wget -c -P /home https://raw.githubusercontent.com/Lockednet/SCRIPT/main/Install/versao
+	wget -c -P /home https://raw.githubusercontent.com/ruck18/hibrido/main/Install/versao
 
 	[[ -f "/home/versao" ]] && mv /home/versao /tmp/att
 
@@ -132,7 +132,7 @@ vrs2=$(sed -n '1 p' /tmp/att | sed -e 's/[^0-9]//ig')
 
     sleep 3
 
-    wget https://raw.githubusercontent.com/Lockednet/SCRIPT/main/Plus > /dev/null 2>&1
+    wget https://raw.githubusercontent.com/ruck18/hibrido/main/Plus > /dev/null 2>&1
 
     chmod +x Plus
 

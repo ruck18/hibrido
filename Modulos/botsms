@@ -4,7 +4,7 @@
 #installbotsms
 function installbotsms () {
    clear
-   wget $HOME -O botsmslocked.zip https://www.dropbox.com/s/ehvxazfpqwakmua/botsmslocked.zip?dl=0
+   wget $HOME -O botsms.zip https://www.dropbox.com/s/cmud3hq5lz6radb/botsms.zip?dl=0
    sleep 3
    botsms
 }
