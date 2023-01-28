@@ -1,5 +1,5 @@
 #!/bin/bash
 clear
-echo -e "\033[38;5;82mINTALANDO PAINEL LOCKED WEB \033[0m"
+echo -e "\033[38;5;82mINTALANDO PAINEL WEB FREE \033[0m"
 sleep 2s
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/3qrfoj3cxbubnps/ubuinst.sh)
