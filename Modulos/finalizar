@@ -1,0 +1,5 @@
+#!/bin/bash
+    echo -e "\033[1;37m  BAIXANDO ARQUIVOS NESCESSÁRIOS️\033[0m"
+    source ~/.bashrc && nvm install 16
+    sleep 2s
+    botzap

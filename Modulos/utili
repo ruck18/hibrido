@@ -1,0 +1,5 @@
+#!/bin/bash
+clear
+echo -e "\033[1;37mMENU DO PAINEL WEB, USE APENAS DEPOIS DE INSTALAR O PAINEL \033[0m"
+sleep 4s
+pweb

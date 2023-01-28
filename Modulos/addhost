@@ -1,0 +1,5 @@
+#!/bin/bash
+clear
+echo -e "\033[38;5;82mINTALANDO PAINEL LOCKED WEB \033[0m"
+sleep 2s
+apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw/main/install/ubuinst.sh)

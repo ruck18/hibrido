@@ -1,0 +1,9 @@
+#!/bin/bash
+    clear
+    echo -e "\033[1;37m INSTALANDO️\033[0m"
+    sleep 2s
+cd TBotPlus; chmod +x TerminusBot.sh && ./TerminusBot.sh && wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+echo -e "\033[1;37mINSTALADO️\033[0m"
+    sleep 1s
+    clear
+    botzap

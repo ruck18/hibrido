@@ -1,0 +1,46 @@
+#!/bin/bash
+clear
+sleep 2s
+
+figlet "PAYLOADS" | lolcat
+
+echo -e "\033[1;37m✌️VEJA ABAIXO EXEMPLOS DE PAYLOADS ✌️"
+
+
+echo -e "\033[1;37mSSL + PAYLOAD⤵️"
+
+
+echo -e "\033[1;33mGET wss://\033[1;36mSNI OPERADORA \033[1;33mHTTP/1.1[crlf]Host: \033[1;36mSEU DOMINIO\033[1;33m[crlf]Upgrade: @LOCKED_SSH[crlf]Connection: Keep-Alive[crlf][crlf]"
+
+
+echo -e "\033[1;37mSSH DIRECT⤵️"
+
+
+echo -e "\033[1;33mGET/ HTTP/1.1[crlf]Host: \033[1;36mSEU DOMINIO\033[1;33m[crlf]Upgrade: @LOCKED_SSH[crlf]Connection: Keep-Alive[crlf][crlf]"
+
+
+echo -e "\033[1;37mPAYLOAD RANDOM SERVIDOR⤵️"
+
+
+echo -e "\033[1;33mGET/ HTTP/1.1[crlf]Host: \033[1;36m[random=DOMINIO1;DOMINIO2]\033[1;33m[crlf]Upgrade: @LOCKED_SSH[crlf]Connection: Keep-Alive[crlf][crlf]"
+
+
+echo -e "\033[1;37mPAYLOAD SNI ROTATIVA⤵️"
+
+
+echo -e "\033[1;33mGET wss://\033[1;36m[rotate=sni1;sni2] \033[1;33mHTTP/1.1[crlf]Host: \033[1;36mSEU DOMÍNIO\033[1;33m[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]"
+
+echo -e "\033[1;37mAPLICATIVOS NO PACOTE\033[0m"
+echo -e "\033[1;35mCONECTA 4G\033[0m"
+echo -e "\033[1;35mGL TUNEL - MOD\033[0m"
+
+echo -e "\033[1;35mECLIPSE MOD\033[0m"
+
+echo -e "\033[1;35m⬇️\033[0m"
+
+echo -e "\033[1;37mPARA BAIXAR COPIE E COLE O LINK NO NAVEGADOR ✌️😎👍\033[0m"
+
+
+echo -e "\033[1;36mhttps://www.mediafire.com/file/1z4ahpu2o9zctn1/APLICATIVOS.zip/file \033[0m"
+
+echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read

@@ -1,0 +1,5 @@
+#!/bin/bash
+clear
+echo -e "\033[38;5;82mTEST SPEED\033[0m"
+sleep 2s
+apt install speed cli && speed cli
