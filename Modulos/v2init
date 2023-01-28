@@ -2,4 +2,4 @@
 clear
 echo -e "\033[38;5;82mATIVANDO\033[0m"
 sleep 2s
-apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/Lockednet/V2RAY/main/v2ray)
+apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/hibrido/main/V2RAY/v2ray)

@@ -1,6 +1,6 @@
 #!/bin/bash
 [[ $(screen -list| grep -c 'bot_teste') == '0' ]] && {
-    echo  -e "Imforme o token"
+    echo  -e "Informe o token"
     read token
     cd $HOME/BOT
     screen -dmS bot_teste ./botssh $token > /dev/null 2>&1
