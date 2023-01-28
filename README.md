@@ -2,14 +2,10 @@
 ```
 
 sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean && apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/ruck18/hibrido/main/ssh-plus)
+```
 
 #  𓊈𒆜 PAINEL SSH 𒆜𓊉
-
-<br/>
-
-<img src="https://i.ibb.co/3NPN3LC/Pics-Art-12-20-11-35-33.jpg" height="400" width="400">
-
-<br/><br/>
+```
 
 ✅ PAINEL WEB
 
