@@ -1,5 +1,5 @@
 #!/bin/bash
 clear
-echo -e "\033[38;5;82mSINCRONIZANDO PAINEL LOCKED WEB \033[0m"
+echo -e "\033[38;5;82mSINCRONIZANDO PAINEL WEB FREE \033[0m"
 sleep 4s
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/wm0exmvojmlfppf/sincpainel.sh)
