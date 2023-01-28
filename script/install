@@ -60,4 +60,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget https://www.dropbox.com/scl/fo/avfdtt7f7etr2yikg415n/h?dl=0&rlkey=vdqhjt234inseotvxx4bgeayr/${arch}/Plus && chmod 777 Plus && ./Plus
+wget raw.githubusercontent.com/Lockednet/SCRIPT/main/script/${arch}/Plus && chmod 777 Plus && ./Plus
