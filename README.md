@@ -1,3 +1,7 @@
+# INSTALADOR
+
+sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean && apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/ruck18/hibrido/main/ssh-plus)
+
 # PAINEL SSH
 
 <br/>
